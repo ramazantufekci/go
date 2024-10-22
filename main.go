@@ -8,7 +8,7 @@ func main() {
 
   var taskItems = []string{"Görev 1", "Görev 2", "Görev 3"}
 
-  for index, task := range taskItems{
+  for _, task := range taskItems{
     fmt.Println(task)
   }
 }
