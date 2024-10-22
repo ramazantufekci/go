@@ -11,7 +11,7 @@ func main() {
   
 }
 
-func printTasks(){
+func printTasks(taskItems){
   for index, task := range taskItems{
     //fmt.Println(task)
     fmt.Printf("%d. %s\n",index+1,task)
