@@ -13,4 +13,7 @@ jobs:
 
       - name: Build
         run: go build -v ./...
+
+      - name: listele
+        run: ls -al
     
