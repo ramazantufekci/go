@@ -3,7 +3,7 @@ name: Go Project
 on: [push, workflow_dispatch]
 jobs:
   build:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       -  uses: actions/checkout@v4
       - name: Set Up Go
