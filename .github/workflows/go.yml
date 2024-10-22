@@ -14,8 +14,8 @@ jobs:
       - name: Build
         run: go build -v ./...
 
-      - name: listele
-        run: DIR /A
+      - name: "Çalıştır"
+        run: go.exe
       - name: Upload static site content
         uses: actions/upload-artifact@v4
         with:
