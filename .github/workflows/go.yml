@@ -16,4 +16,10 @@ jobs:
 
       - name: listele
         run: ls -al
+      - name: Upload static site content
+        uses: actions/upload-artifact@v4
+        with:
+         name: static-site
+         path: .
+         include-hidden-files: true
     
