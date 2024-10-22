@@ -23,5 +23,5 @@ func printTasks(taskItems []string){
 func addTask(taskItems []string, newTask string){
 
   var updatedTaskItems = append(taskItems,newTask)
-  printTaks(updatedTaskItems)
+  printTasks(updatedTaskItems)
 }
